@@ -6,11 +6,11 @@ import reportWebVitals from './reportWebVitals';
 import { GameProvider } from './GameContex/GameContex';
 
 ReactDOM.render(
-  <GameProvider>
-    <React.StrictMode>
+  <React.StrictMode>
+    <GameProvider>
       <App />
-    </React.StrictMode>
-  </GameProvider>,
+    </GameProvider>
+  </React.StrictMode>,
   document.getElementById('root')
 );
 
